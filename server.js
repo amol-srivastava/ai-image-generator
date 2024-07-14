@@ -1,18 +1,16 @@
 const express = require('express');
 const cors = require('cors');
-const OpenAI = require('openai'); // Adjust the import statement as per your environment
+const OpenAI = require('openai'); 
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 require('dotenv').config();
 
-// Initialize OpenAI API client with API key directly
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-// Predefined list of surprise prompts
 const surprisePrompts = [
   'A beautiful sunset over the ocean',
   'A futuristic cityscape',
@@ -26,7 +24,6 @@ app.post('/images', async (req, res) => {
     let { prompt, isSurprise } = req.body;
 
     if (isSurprise) {
-      // Select a random prompt if it's a surprise request
       prompt = surprisePrompts[Math.floor(Math.random() * surprisePrompts.length)];
     }
 
@@ -37,12 +34,12 @@ app.post('/images', async (req, res) => {
     const image = await openai.images.generate({
       model: "dall-e-3",
       prompt: prompt,
-      n: 1, // Adjust number of images as required
+      n: 1, 
       size: "1024x1024"
     });
 
-    console.log('Generated Image URLs:', image.data); // Assuming image.data contains URLs or relevant data
-    res.send(image.data); // Sends back the response to the client
+    console.log('Generated Image URLs:', image.data);
+    res.send(image.data);
   } catch (error) {
     console.error('Error:', error);
     res.status(500).send({ error: 'Failed to generate image' });
