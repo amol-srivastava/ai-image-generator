@@ -16,7 +16,6 @@ AI-Image Generator is a web application I've created to allow users to generate 
 ### Frontend
 - **React**: A JavaScript library for building user interfaces.
 - **JavaScript**: The programming language used for client-side scripting.
-- **CSS**: For styling the application.
 - **JSX**: A syntax extension for JavaScript used with React to describe what the UI should look like.
 
 ### Backend
