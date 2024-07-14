@@ -10,6 +10,7 @@ AI-Image Generator is a web application I've created to allow users to generate 
 - Display generated images directly on the web page.
 
 <img src="https://github.com/user-attachments/assets/b55ccef3-4d48-42f2-91b8-0666fcd484ca" alt="Screenshot 2024-07-13 at 8 49 33 PM" width="50%">
+<img src="https://github.com/user-attachments/assets/1a1e3376-0dc9-4cf7-be67-793f26777aed" alt="Screenshot 2024-07-13 at 8 56 22 PM" width="50%">
 
 ## Technologies Used
 
