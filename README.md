@@ -28,3 +28,5 @@ AI-Image Generator is a web application I've created to allow users to generate 
 ### AI Model
 - **OpenAI's DALL-E 3**: A powerful AI model for generating images from text prompts.
 
+<img src="https://github.com/user-attachments/assets/722cbe51-bca9-4c6b-9943-5f78ed60ae3b" alt="React Logo" width="50%">
+<img src="https://github.com/user-attachments/assets/e56f3ab1-053e-4a3f-8590-f78c8652a978" alt="JavaScript Logo" width="50%">
