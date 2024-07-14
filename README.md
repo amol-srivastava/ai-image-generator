@@ -9,7 +9,7 @@ AI-Image Generator is a web application I've created to allow users to generate 
 - User-friendly interface with responsive design.
 - Display generated images directly on the web page.
 
-  
+![Screenshot 2024-07-13 at 8 49 33 PM](https://github.com/user-attachments/assets/b55ccef3-4d48-42f2-91b8-0666fcd484ca)
 
 ## Technologies Used
 
