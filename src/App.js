@@ -24,9 +24,9 @@ const App = () => {
       };
       const response = await fetch('http://localhost:3000/images', options);
       const data = await response.json();
-      console.log('Backend response:', data); // Log the backend response
+      console.log('Backend response:', data); 
       if (response.ok) {
-        setImages(data); // Assuming backend sends back the image data or URLs
+        setImages(data); 
       } else {
         throw new Error(data.error || 'Failed to fetch images');
       }
